@@ -1,0 +1,17 @@
+name: pop_toast_example
+description: Demo app for pop_toast.
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_ui: ^1.0.0
+  pop_toast:
+    path: ../
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,26 @@
+name: pop_toast
+description: >-
+  Lightweight, customizable toast messages for Flutter, written in pure Dart.
+  Supports queueing, positions, types, custom widgets and context-free calls.
+version: 0.1.0
+# Add your real GitHub URLs before publishing, then remove the leading "#".
+# repository: https://github.com/umcodes31/pop_toast
+# issue_tracker: https://github.com/umcodes31/pop_toast/issues
+topics:
+  - toast
+  - notification
+  - overlay
+  - ui
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ">=3.0.0 <7.0.0"
